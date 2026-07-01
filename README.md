@@ -26,4 +26,4 @@ A structured self-study portfolio documenting my path from beginner to job-ready
 
 ## Currently Learning
 - OSI Model ✓
-- TCP/IP & Subnetting → Day 2git 
+- TCP/IP & Subnetting → Day 2git git add .

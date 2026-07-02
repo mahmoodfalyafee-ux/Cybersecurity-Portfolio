@@ -85,4 +85,6 @@ netstat -an           # see all open ports and connections
 - [x] TryHackMe — "What is Networking?" room ✓
 - [x] TryHackMe — "DNS in Detail" room ✓
 - [x] TryHackMe — "HTTP in Detail" room ✓
-- [x] TryHackMe — "How Websites Work" room ✓
+- [x] TryHackMe — "Networking Concepts" room ✓
+- [x] TryHackMe — "Networking Core Protocols" — covered in theory session ✓
+- [x] "How Websites Work" — covered in theory session ✓

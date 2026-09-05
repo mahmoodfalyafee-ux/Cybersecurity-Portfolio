@@ -1,59 +1,74 @@
 # Cybersecurity Portfolio
 
-This repository documents my cybersecurity learning journey — structured notes, hands-on lab writeups, and projects built along the way. The goal is to develop practical, demonstrable skills rather than just collect certificates.
+Hi, I'm Mahmood. This repository is where I keep track of my cybersecurity journey as I learn, practice, make mistakes, and build things along the way.
 
-I am a Cybersecurity Engineering student at Abu Dhabi University, Al Ain, UAE, working toward roles in SOC analysis and penetration testing.
+I don't want this to be just a collection of certificates or copied notes. I want it to show what I have actually learned and what I can do with it. That includes networking and Linux fundamentals, practical labs, scripts, security writeups, and projects.
 
----
-
-## Progress overview
-
-| Phase | Focus | Status |
-|-------|-------|--------|
-| Phase 1 | Networking, Linux, Python, Security Concepts | In progress |
-| Phase 2 | Security+, Wireshark, Nmap, SIEM, Burp Suite | Upcoming |
-| Phase 3 | Specialization — SOC or Penetration Testing | Upcoming |
-| Phase 4 | Job applications and portfolio finalization | Upcoming |
+My main focus is cybersecurity, but I also work with programming, AI, data, and application development. I want my GitHub to reflect that wider technical background while keeping cybersecurity as the main direction.
 
 ---
 
-## Repository structure
+## My Learning Journey
 
-```
+I keep my learning notes in one continuous file and organize them by **Day 1, Day 2, Day 3...**. This makes it easy to see how my knowledge developed over time instead of splitting every small topic into a different folder.
+
+You can follow the journey here:
+
+**[Cybersecurity Learning Journey](learning-journey.md)**
+
+So far, I have been working through networking fundamentals, including the OSI model, TCP/IP, ports, DNS, HTTP/HTTPS, and basic network commands. I am gradually moving from understanding the concepts to actually using them in labs and projects.
+
+---
+
+## What I'm Working Toward
+
+My goal is to build a strong foundation first and then move deeper into practical cybersecurity areas such as:
+
+- Network security and enumeration
+- Linux and system administration
+- Python for security automation
+- Wireshark and network analysis
+- Nmap and reconnaissance
+- SIEM and SOC fundamentals
+- Web application security
+- Penetration testing
+
+I am still learning, so this repository will change as I progress.
+
+---
+
+## What's Inside
+
+```text
 Cybersecurity-Portfolio/
-├── networking/          # OSI model, TCP/IP, subnetting, ports, DNS, HTTP
-├── linux/               # Commands, permissions, bash scripting, processes
-├── python-scripts/      # Security tools built from scratch
-└── writeups/            # TryHackMe room notes and lab documentation
+│
+├── README.md
+├── learning-journey.md       # Day-by-day learning notes
+│
+├── labs/                     # Hands-on labs and practice
+├── projects/                 # Practical projects and security tools
+└── writeups/                 # Longer technical writeups and analysis
 ```
+
+The learning notes stay together, while larger labs and projects can have their own space when they become substantial enough to deserve it.
 
 ---
 
-## Completed — Phase 1
+## Things I've Practiced So Far
 
 ### Networking
-- OSI model — all 7 layers, protocols, and security relevance per layer
-- TCP/IP model and how it maps to OSI
-- TCP vs UDP — differences, use cases, and how each is exploited
-- TCP 3-way handshake — SYN, SYN-ACK, ACK and the SYN flood attack
-- DNS — resolution process, zone transfer attacks, DNS tunneling
-- HTTP vs HTTPS — request/response cycle, status codes, TLS
-- Private vs public IP addressing and how NAT works
-- 15 key ports — usage, encryption status, attack vectors, and commands
+
+I've worked through the OSI and TCP/IP models, TCP vs UDP, the TCP three-way handshake, common ports, DNS, HTTP/HTTPS, private and public IP addresses, NAT, and basic network troubleshooting commands.
+
+I've also started looking at these concepts from a security perspective, such as SYN floods, DNS poisoning, exposed services, and why encryption matters.
 
 ### Linux
-- File system structure — key directories and their security relevance
-- Navigation and file operations — pwd, ls, cd, mkdir, rm, cp, mv, find
-- Reading /etc/passwd and /etc/shadow — user accounts and password hashes
-- Understanding UID, GID, and group membership (sudo, adm)
-- File permissions — rwx, chmod, chown
 
-### TryHackMe rooms completed
-- [x] What is Networking?
-- [x] DNS in Detail
-- [x] HTTP in Detail
-- [x] Networking Concepts
-- [x] Linux Fundamentals Part 1
+I've been getting comfortable with the Linux environment and learning about the filesystem, navigation, file operations, users and groups, `/etc/passwd`, `/etc/shadow`, permissions, `chmod`, `chown`, processes, and basic Bash work.
+
+### Hands-on Learning
+
+I've been using platforms and environments such as TryHackMe, Kali Linux, WSL, and OverTheWire to turn the theory into practical experience.
 
 ---
 
@@ -66,12 +81,32 @@ Cybersecurity-Portfolio/
 
 ---
 
-## Tools used so far
+## Tools I've Used
 
-Kali Linux, WSL, Git, VS Code, TryHackMe, OverTheWire Bandit
+**Cybersecurity:** Kali Linux, TryHackMe, OverTheWire Bandit
+
+**Development:** Python, C++, Java, Git, VS Code
+
+**Other:** AI/ML tools, Power BI, Android Studio
 
 ---
 
-## Contact
+## Beyond Cybersecurity
 
-Email: mahmood.f.farid@gmail.com
+Cybersecurity is my main direction, but it is not the only technical area I work in. I've also worked on AI/ML, data analytics, application development, and programming projects.
+
+I plan to keep those projects in separate repositories when appropriate, so this repository can stay focused on my cybersecurity learning while my GitHub profile as a whole shows the broader range of things I can build.
+
+---
+
+## Current Status
+
+**Learning:** Networking → Linux → Python → Security fundamentals
+
+**Next:** More hands-on labs, security tools, scripting, and practical projects
+
+**Long-term:** Build enough practical experience to move into cybersecurity internship and entry-level roles.
+
+---
+
+> This repository is a work in progress. The goal isn't to make it look perfect from the beginning. The goal is to keep improving it as I improve.

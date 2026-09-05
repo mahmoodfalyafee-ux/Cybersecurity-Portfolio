@@ -74,4 +74,4 @@ Kali Linux, WSL, Git, VS Code, TryHackMe, OverTheWire Bandit
 
 ## Contact
 
-Email: ma.alyafei21@gmail.com
+Email: mahmood.f.farid@gmail.com
